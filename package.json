@@ -1,0 +1,36 @@
+{
+  "name": "nextjs-react",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "normal": "next --inspect",
+    "dev": "nodemon server.js",
+    "debug": "nodemon --inspect-brk server.js",
+    "build": "next build",
+    "start": "next start",
+    "export": "next export -o dist",
+    "analyzer:browser": "BUNDLE_ANALYZE=browser npm run build",
+    "analyzer:server": "BUNDLE_ANALYZE=server npm run build"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.16.4",
+    "isomorphic-unfetch": "^3.0.0",
+    "next": "^8.0.3",
+    "next-redux-wrapper": "^3.0.0-alpha.2",
+    "nprogress": "^0.2.0",
+    "react": "^16.8.4",
+    "react-dom": "^16.8.4",
+    "react-helmet": "^5.2.0",
+    "react-redux": "^6.0.1",
+    "redux": "^4.0.1",
+    "redux-thunk": "^2.3.0",
+    "s": "^0.1.1"
+  },
+  "devDependencies": {
+    "@zeit/next-bundle-analyzer": "^0.1.2"
+  }
+}

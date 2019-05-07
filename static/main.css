@@ -1,0 +1,29 @@
+.root {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+header {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    padding: 1em;
+    font-size: 1.2rem;
+    background: indigo;
+}
+
+header a {
+    color: darkgrey;
+    text-decoration: none;
+}
+
+header a:hover {
+    color: lightgrey;
+    font-weight: bold;
+}
+
+footer {
+    padding: 1em;
+}
